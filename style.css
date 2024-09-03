@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+body{
+    background-color: #FCE0B9;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+    background-color: #802111;
+}
+
+.header{
+    width: 100%;
+    height: 90px;
+    background-color: #802111;
+}
+
+.inner-header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo{
+    height: 100%;
+    display: table;
+    float: left;
+}
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a:last-child{
+    padding-right: 0px;
+}
+
+.navigation a li:hover{
+    color: #7183AE;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: #FCE0B9;
+} 
+
+ ul{
+    font-size: 25px;
+    font-weight: 40;
+ }
+
+.titulo{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.página-principal{
+    background-color: #FEFDE1;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    color: #802010;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+span{
+    color: #7183AE;
+}
+
+.texto{
+    margin-right: 20px;
+    margin-top: 20px;
+    flex: 1;
+}
+
+.texto p{
+    font-size: 24px;
+    text-align: justify;
+}
+
+.imgs{
+ width: 350px;   
+ height: 350px;
+ margin: 25px;
+}
+
+.contato{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #FEFDE1;
+}
+
+.comidas{
+    padding: 1%;
+    margin: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+
+   .contato label{
+       margin-bottom: 5px;
+       font-weight: bold;
+       color: #333;
+   }
+   
+   .contato input[type="text"],input[type="email"],input[type="date"],input[type="number"],input[type="text"],select,textarea{
+       margin-bottom: 15px;
+       padding: 10px;
+       border: 1px solid #ddd;
+       border-radius: 4px;
+       font-size: 16px;
+   }
+   .contato input[type="submit"] {
+       background-color: #802111;
+       color: #FCE0B9;
+       padding: 10px;
+       border: none;
+       border-radius: 4px;
+       font-size: 16px;
+       cursor: pointer;
+       transition:  0.3s ease;
+   }
+   
+   .contato input[type="submit"]:hover {
+       background-color: #7183AE;
+   }
+   
+   .contato input [type="submit"] [value="Enviar"] {
+       margin-left: 50px;
+   }
+   
+   .textarea {
+       resize: vertical; 
+   }
+   
+   
+   input[type="submit"] {
+       background-color: #61A6AB;
+       color: #fff;
+       padding: 10px;
+       border: none;
+       border-radius: 4px;
+       font-size: 16px;
+       cursor: pointer;
+       transition: 0.3s ease;
+   }
+   
+   input[type="submit"]:hover {
+       background-color: #802111;
+   }
+   
+
+.item{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #FEFDE1;
+    color: #333;
+    padding: 1%;
+    margin-left: 335px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 650px;
+    border-radius: 2%;      
+}
+
+.item2{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #FEFDE1;
+    color: #333;
+    padding: 1%;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 650px;
+    border-radius: 2%;
+} 
+
+.food{
+    margin: 1%;
+    padding: 1%;
+    padding-right: 70px;
+}
+
+
+
+    
+
+
+
+
